@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Search</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, button { padding: 10px; margin: 10px 0; width: 300px; }
+    .movie { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; display: flex; gap: 10px; }
+    img { height: 100px; }
+  </style>
+</head>
+<body>
+  <h2>Movie Search App</h2>
+  <input id="movieInput" placeholder="Search movies..." />
+  <button onclick="searchMovie()">Search</button>
+  <div id="movies"></div>
+
+  <script src="movies.js"></script>
+</body>
+</html>

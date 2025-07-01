@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Filter</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { padding: 8px; width: 300px; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 10px 0; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <h2>Filter Products</h2>
+  <input type="text" id="search" placeholder="Search products..." oninput="filterProducts()" />
+  <ul id="productList"></ul>
+
+  <script src="products.js"></script>
+</body>
+</html>
